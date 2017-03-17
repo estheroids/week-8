@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel='stylesheet' type='text/css'>
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css' rel='stylesheet'>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v0.16.0/mapbox-gl-draw.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v0.16.0/mapbox-gl-draw.css' type='text/css'/>
+
+    <meta charset="utf-8">
+
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+<title>mucilage for your fuselage</title>
+
+  </head>
+    <body>
+
+    <div id='map'></div>
+
+
+
+    <div class="sidebar">
+        <h1 class="header">DRAW A POLYGON</h1>
+
+
+        <pre><span class="inner-pre" style="font-size: 10px">
+ * hold ctrl
+ as you click/
+ drag to tilt
+ or rotate map
+
+ ** use tools on
+ the right corner
+ to start drawing </span></pre>
+
+    <div class='btn' id="calculate" >CALCULATE AREA</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <pre id="calculated-area">  [square meters] <pre>
+
+
+
+
+    <!-- End HTML -->
+    <!-- Start Javascript Imports -->
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/main.js"></script>
+    <!-- End Javascript Imports -->
+  </body>
+
+</html>
